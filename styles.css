@@ -154,6 +154,11 @@ h1 {
   letter-spacing: -0.045em;
 }
 
+.home-shell .hero h1 {
+  font-size: clamp(34px, 6vw, 52px);
+  letter-spacing: -0.035em;
+}
+
 .document-title {
   font-size: clamp(34px, 6vw, 50px);
 }
@@ -223,7 +228,9 @@ h1 {
   border-radius: 14px;
   color: var(--accent);
   background: var(--accent-soft);
-  font-size: 22px;
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
 }
 
 .link-card h2 {
